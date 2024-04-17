@@ -1,0 +1,34 @@
+body{
+  background: url(./images/background.jpg)no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+#board{
+  width: 370px;
+  height: 370px;
+  background-color: lightblue;
+  border: 5px solid slategray;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img{
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+@media (max-width: 430px){
+  #board{
+    width: 280px;
+    height: 280px;
+  }
+  #board img{
+    width: 30px;
+    height: 30px;
+  }
+}
